@@ -11,7 +11,7 @@ Xorfor plugin was removed. It has been done from two reason - make it simple as 
 * GARNI 2055 Arcus - All measured values from outdoor (7in1) unit are decoded; the data from the first radio sensor mark as Indoor is also decoded.
 
 ## Prerequisits
-PWS have to be properly configured to send information to Domoticz IP address and port (see below). Unfortunately majority of PWSes have no possibility to configure destination IP address nor port - WU url is hadrcoded in firmware. There is possibility to configure IP address of the destination server in tested GARNI model but there is no possibility to change port. The solution for it is NAT. The traffic from PWS to WU have to be redirected to Domoticz and appropriate port. 
+PWS have to be properly configured to send information to Domoticz IP address and port (see below). Unfortunately majority of PWSes have no possibility to configure destination IP address nor port - WU url is hadrcoded in firmware. There is possibility to configure IP address of the destination server in tested GARNI model but there is no possibility to change port. The solution for it is NAT. The traffic from PWS to WU have to be redirected to Domoticz IP and appropriate port on it. 
 In my solution PWS is in isolated local network and all traffic manipulation is done on border router.
 
 ## Installation
