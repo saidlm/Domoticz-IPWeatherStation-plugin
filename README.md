@@ -42,3 +42,31 @@ There are six parameters which have to be set up in Domoticz while new hadware i
 | **Update timeout**    | Maximum delay between update of Domoticz devices if no new value is received
 | **Always update**     | All related Domoticz devices will be updated in every single cycle - always when correct update is received from PWS; if this parameter is ON update timeout is ignored
 | **Debug**             | Switch on debug logging
+
+## Devices
+The plugin will create list which was adopted from original plugin. All of them are by default ativated.If you don't want to use all of them you can easily remove all unwanted ones.
+
+| Name                     | Description
+| :---                     | :---
+| **Barometer (absolute)** | Pressure (absolute) in hPa
+| **Barometer (relative)** | Pressure (relative) in hPa
+| **Chill**                | Chill (calculated if missing)
+| **Dew point**            | Dew point (calculated if missing)
+| **Gust**                 | Gust
+| **Heat index**           | Heat index (calculated if missing)
+| **Humidity**             | Humidity
+| **Humidity (indoor)**    | Humidity (indoor)
+| **Rain**                 | Current rain rate and daily total
+| **Rain rate**            | Current rain rate
+| **Station**              | Format: [ip adress] ([software]): [Protocol] 
+| **Solar radiation**      | Solar radiation
+| **Temp + Hum**           | Temperature and humidity
+| **Temperature**          | Temperature
+| **Temperature (indoor)** | Temperature
+| **THB**                  | Temperature, humidity and barometer (pressure and prediction)
+| **UVI**                  | UV index
+| **UV Alert**             | UV index + warning level (calculated)
+| **Wind**                 | Wind direction, speed and gust
+| **Wind**                 | Wind direction, speed, gust, temperature and gust
+| **Wind direction**       | Wind direction
+| **Wind Speed**           | Wind speed
