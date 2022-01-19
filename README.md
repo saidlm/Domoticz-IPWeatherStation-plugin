@@ -44,7 +44,7 @@ There are six parameters which have to be set up in Domoticz while new hadware i
 | **Debug**             | Switch on debug logging
 
 ## Devices
-The plugin will create list which was adopted from original plugin. All of them are by default ativated.If you don't want to use all of them you can easily remove all unwanted ones.
+The plugin will create list of devices which was adopted from original plugin. All of them are by default ativated. If you don't want to use all of them you can easily remove all unwanted ones.
 
 | Name                     | Description
 | :---                     | :---
