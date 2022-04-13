@@ -14,24 +14,6 @@ Xorfor plugin was removed. It has been done from two reason - make it simple as 
 PWS have to be properly configured to send information to Domoticz IP address and port (see below). Unfortunately majority of PWSes have no possibility to configure destination IP address nor port - WU url is hadrcoded in firmware. There is possibility to configure IP address of the destination server in tested GARNI model but there is no possibility to change port. The solution for it is NAT. The traffic from PWS to WU have to be redirected to Domoticz IP and appropriate port on it. 
 In my solution PWS is in isolated local network and all traffic manipulation is done on border router.
 
-## Installation
-1. Clone repository into your Domoticz plugins folder
-    ```
-    cd <PATH>/domoticz/plugins
-    git clone https://github.com/Xorfor/Domoticz-PWS-Plugin.git
-    ```
-1. Restart domoticz
-   
-   installation without docker:
-    ```
-    sudo service domoticz.sh restart
-    ```
-   installation with docker:
-    ```
-    docker restart domoticz
-    ```
-   where domoticz is container name
-
 ## Configuration
 There are six parameters which have to be set up in Domoticz while new hadware is added:
 | Name                  | Description
